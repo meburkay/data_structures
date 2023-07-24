@@ -13,7 +13,7 @@ public class TestForReferenceType {
 
         System.out.println("new Car(\"Audi\") = " + new Car("Audi")); //Car@723279cf
 
-        ArrayList<Integer> arrayList = new ArrayList<>();
+        ArrayList<Integer> arrayList = new ArrayList<>(); //We can not see here but its default capacity is 10. We can see it in the source code.
 
         System.out.println("arrayList.size() = " + arrayList.size());
 
